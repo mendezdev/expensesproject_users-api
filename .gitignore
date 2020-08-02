@@ -25,3 +25,5 @@ hs_err_pid*
 
 # intelliJ
 *.iml
+*.idea
+*.mvn
