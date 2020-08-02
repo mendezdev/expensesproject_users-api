@@ -7,7 +7,9 @@ import com.expensesproject.usersapi.dto.UserResponse
 import com.expensesproject.usersapi.transformer.toUser
 import com.expensesproject.usersapi.transformer.toUserResponse
 import org.springframework.data.repository.findByIdOrNull
+import org.springframework.stereotype.Service
 
+@Service
 class UserManagementServiceImpl(
         private val userDao: UserDao
 ) : UserManagementService {
